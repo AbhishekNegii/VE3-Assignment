@@ -9,6 +9,7 @@
     margin-top: 5%;
     vertical-align: middle;
      background-image: url(http://js-ind-app.herokuapp.com/images/app-bkg-02.png);
+
 }
 
 
@@ -25,17 +26,21 @@
     
 } */
 
-.btn_module1:hover {
-    background-color: grey; /* Green */
-    color: white;
-  }
+
 
   *, ::before, ::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
+  .rightt{
+    position: relative;
+    right: -150%;
+  }
   
+  .inline{
+    display: inline-flex;
+  }
   body {
     background: #fff;
   }

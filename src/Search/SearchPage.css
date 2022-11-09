@@ -1,0 +1,24 @@
+.containerSearch{
+    width: 960px;
+    height: 540px;
+    border: 1px solid #e0e0e0;
+    margin: 0px auto;
+    padding: 0;
+    left: 0%;
+    right: 0%;
+    margin-top: 5%;
+    vertical-align: middle;
+    background-color: lightblue;
+     background-image: url(http://js-ind-app.herokuapp.com/images/app-bkg-02.png);
+}
+
+.textcentre{
+    text-align: left;
+}
+
+.home{
+    position: relative;
+    right: -80%;
+    width: 50%;
+    margin-top: 5%;
+}

@@ -1,5 +1,7 @@
 import React, { useState } from "react";
+import HomeButton from "../HomeButton";
 import "../MainPage.css";
+import SearchButton from "../Search/SearchButton";
 
 const Page2 = () => {
   const [toggleState, setToggleState] = useState(1);
@@ -11,9 +13,16 @@ const Page2 = () => {
   return (
     // <div>
     <div className="container1">
-      <br/>
+      <br />
+      <div className="inline">
         <h2>Module Two</h2>
-        <br/>
+        <div className="rightt">
+          <SearchButton />
+          <HomeButton />
+        </div>
+      </div>
+      <br />
+      <br />
       <div className="bloc-tabs">
         <button
           className={toggleState === 1 ? "tabs active-tabs" : "tabs"}
@@ -39,12 +48,12 @@ const Page2 = () => {
         <div
           className={toggleState === 1 ? "content  active-content" : "content"}
         >
-            <img
+          <img
             src="http://js-ind-app.herokuapp.com/images/img-04.jpg"
             alt="tab1"
           />
           <h2>Lorem Ipsum is simply dummy testingOne</h2>
-           
+
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
@@ -60,7 +69,7 @@ const Page2 = () => {
         <div
           className={toggleState === 2 ? "content  active-content" : "content"}
         >
-            <img
+          <img
             src="http://js-ind-app.herokuapp.com/images/img-05.jpg"
             alt="tab1"
           />
@@ -78,7 +87,7 @@ const Page2 = () => {
         <div
           className={toggleState === 3 ? "content  active-content" : "content"}
         >
-            <img
+          <img
             src="http://js-ind-app.herokuapp.com/images/img-06.jpg"
             alt="tab1"
           />

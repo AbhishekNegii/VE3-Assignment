@@ -6,6 +6,7 @@ import Page2 from "./ModuleTwo/Page2";
 import Page3 from "./ModuleTwo/Page3";
 import Page4 from "./ModuleTwo/Page4";
 import Page5 from "./ModuleTwo/Page5";
+import SearchPage from "./Search/SearchPage";
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
       </Route>
       <Route path="/page5" exact>
         <Page5 />
+      </Route>
+      <Route path="/searchpage" exact>
+        <SearchPage/>
       </Route>
     </Switch>
   );

@@ -1,5 +1,7 @@
 import React, { useState } from "react";
+import HomeButton from "../HomeButton";
 import "../MainPage.css";
+import SearchButton from "../Search/SearchButton";
 
 const Page4 = () => {
   const [toggleState, setToggleState] = useState(1);
@@ -11,9 +13,16 @@ const Page4 = () => {
   return (
     // <div>
     <div className="container1">
-        <br/>
+      <br />
+      <div className="inline">
         <h2>Module Four</h2>
-        <br/>
+        <div className="rightt">
+          <SearchButton />
+          <HomeButton />
+        </div>
+      </div>
+      <br />
+      <br />
       <div className="bloc-tabs">
         <button
           className={toggleState === 1 ? "tabs active-tabs" : "tabs"}
@@ -39,12 +48,12 @@ const Page4 = () => {
         <div
           className={toggleState === 1 ? "content  active-content" : "content"}
         >
-            <img
-            src="http://js-ind-app.herokuapp.com/images/img-01.jpg"
+          <img
+            src="http://js-ind-app.herokuapp.com/images/img-10.jpg"
             alt="tab1"
           />
           <h2>Lorem Ipsum is simply dummy testingOne</h2>
-           
+
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
@@ -60,8 +69,8 @@ const Page4 = () => {
         <div
           className={toggleState === 2 ? "content  active-content" : "content"}
         >
-            <img
-            src="http://js-ind-app.herokuapp.com/images/img-02.jpg"
+          <img
+            src="http://js-ind-app.herokuapp.com/images/img-11.jpg"
             alt="tab1"
           />
           <h2>Amet pariatur consequat louptateff in ex consequat</h2>
@@ -78,8 +87,8 @@ const Page4 = () => {
         <div
           className={toggleState === 3 ? "content  active-content" : "content"}
         >
-            <img
-            src="http://js-ind-app.herokuapp.com/images/img-03.jpg"
+          <img
+            src="http://js-ind-app.herokuapp.com/images/img-12.jpg"
             alt="tab1"
           />
           <h2>Eiusmod ullamco ea officiaipsum.</h2>
