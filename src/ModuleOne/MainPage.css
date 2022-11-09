@@ -1,0 +1,30 @@
+.container{
+    width: 960px;
+    height: 540px;
+    border: 1px solid #e0e0e0;
+    margin: 0px auto;
+    padding: 0;
+    left: 0%;
+    right: 0%;
+    margin-top: 5%;
+    vertical-align: middle;
+     background-image: url(http://js-ind-app.herokuapp.com/images/app-bkg-02.png);
+}
+
+.btn_module1{
+    font-size: 20px;
+    width: 25%;
+     text-align: center;
+     background-color: #008CBA;;
+    color: black;
+    display: inline-block;
+    padding: 15px 32px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    
+}
+
+.btn_module1:hover {
+    background-color: grey; /* Green */
+    color: white;
+  }
