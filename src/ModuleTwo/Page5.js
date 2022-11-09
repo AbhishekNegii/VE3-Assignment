@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import HomeButton from "../HomeButton";
-import "./MainPage.css";
+import "../MainPage.css";
 
-const MainPage = () => {
+const Page5 = () => {
   const [toggleState, setToggleState] = useState(1);
 
   const toggleTab = (index) => {
@@ -13,8 +12,7 @@ const MainPage = () => {
     // <div>
     <div className="container1">
         <br/>
-        <h2>Module One</h2>
-        <HomeButton/>
+        <h2>Module Five</h2>
         <br/>
       <div className="bloc-tabs">
         <button
@@ -99,4 +97,4 @@ const MainPage = () => {
   );
 };
 
-export default MainPage;
+export default Page5;

@@ -25,21 +25,26 @@ const HomePage = () => {
                 dolorem officia ut aliquip ex ea commodo consequat.
               </p>
             )}
-
+            <div className="base12">
             {flip && <Link to="/mainpage"><h3>Module One</h3></Link>}
-            {flip && <Link><h3>Module Two</h3></Link>}
-            {flip && <Link><h3>Module Three</h3></Link>}
-            {flip && <Link><h3>Module Four</h3></Link>}
-            {flip && <Link><h3>Module Five</h3></Link>}
-
+            </div>
+            <div className="base12">
+            {flip && <Link to="/page2"><h3>Module Two</h3></Link>}
+            </div>
+            <div className="base12">
+            {flip && <Link to="/page3"><h3>Module Three</h3></Link>}
+            </div>
+            <div className="base12">
+            {flip && <Link to="/page4"><h3>Module Four</h3></Link>}
+            </div>
+            <div className="base12">
+            {flip && <Link to="/page5"><h3>Module Five</h3></Link>}
+            </div>
             <button className="btn_module" onClick={textchangeHandler}>
               Select Module
             </button>
           </div>
-          {/* <button className="btn_module" onClick={textchangeHandler}>
-              Select Module
-            </button> */}
-        </div>
+          </div>
       </div>
     </div>
   );

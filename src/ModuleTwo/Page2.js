@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import HomeButton from "../HomeButton";
-import "./MainPage.css";
+import "../MainPage.css";
 
-const MainPage = () => {
+const Page2 = () => {
   const [toggleState, setToggleState] = useState(1);
 
   const toggleTab = (index) => {
@@ -12,9 +11,8 @@ const MainPage = () => {
   return (
     // <div>
     <div className="container1">
-        <br/>
-        <h2>Module One</h2>
-        <HomeButton/>
+      <br/>
+        <h2>Module Two</h2>
         <br/>
       <div className="bloc-tabs">
         <button
@@ -42,7 +40,7 @@ const MainPage = () => {
           className={toggleState === 1 ? "content  active-content" : "content"}
         >
             <img
-            src="http://js-ind-app.herokuapp.com/images/img-01.jpg"
+            src="http://js-ind-app.herokuapp.com/images/img-04.jpg"
             alt="tab1"
           />
           <h2>Lorem Ipsum is simply dummy testingOne</h2>
@@ -63,7 +61,7 @@ const MainPage = () => {
           className={toggleState === 2 ? "content  active-content" : "content"}
         >
             <img
-            src="http://js-ind-app.herokuapp.com/images/img-02.jpg"
+            src="http://js-ind-app.herokuapp.com/images/img-05.jpg"
             alt="tab1"
           />
           <h2>Amet pariatur consequat louptateff in ex consequat</h2>
@@ -81,7 +79,7 @@ const MainPage = () => {
           className={toggleState === 3 ? "content  active-content" : "content"}
         >
             <img
-            src="http://js-ind-app.herokuapp.com/images/img-03.jpg"
+            src="http://js-ind-app.herokuapp.com/images/img-06.jpg"
             alt="tab1"
           />
           <h2>Eiusmod ullamco ea officiaipsum.</h2>
@@ -99,4 +97,4 @@ const MainPage = () => {
   );
 };
 
-export default MainPage;
+export default Page2;
