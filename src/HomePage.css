@@ -48,16 +48,13 @@
     line-height: 1rem;
     margin-bottom: 1.8rem;
     font-family: "Montserrat";
-    box-shadow: inset 0 0 0 0 #54b3d6;
-    color: #54b3d6;
-    padding: 0 .5rem;
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    transition: background-color 0.3s;
+   
 }
 
 .base12:hover{
-    
-        box-shadow: inset 200px 0 0 0px #54b3d6;
-      color: white;
+    transform: scale(1.2, 1.2);
+        
     
    
 }
@@ -79,7 +76,6 @@
     color: white;
     position: absolute;
     bottom: 0;
-    /* width: 17.1rem; */
     height: 3.4rem;
     font-size: 1.5rem;
     line-height: 1.5rem;
