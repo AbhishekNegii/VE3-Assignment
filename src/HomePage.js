@@ -41,7 +41,7 @@ const HomePage = () => {
             {flip && <Link to="/page5"><h3>Module Five</h3></Link>}
             </div>
             <button className="btn_module" onClick={textchangeHandler}>
-              Select Module
+              {flip ?'Select Module':'Enter'}
             </button>
           </div>
           </div>
